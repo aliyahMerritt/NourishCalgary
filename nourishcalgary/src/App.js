@@ -1,8 +1,11 @@
+import NavBar from "./components/NavBar";
+import HomePage from "./pages/HomePage";
 
 export default function App() {
     return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    )
-  }
+        <div className="bg-NourishBG h-screen w-screen">
+            <HomePage />
+            {/* <NavBar /> */}
+        </div>
+    );
+}
