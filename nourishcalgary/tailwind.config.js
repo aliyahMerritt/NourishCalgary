@@ -5,14 +5,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        bounce: 'bounce 21s infinite',
+        bounce2: 'bounce 18s infinite',
+        bounce3: 'bounce 15s infinite',
+        bounce4: 'bounce 30s infinite'
+      },
       colors: {
         NourishBlue: '#15b7b9',
         NourishBG: '#f5f5f5',
       },
-      rotate: {
-        '47':'-47deg',
-      }
+      backgroundColor: {
+        NourishBG: '#f5f5f5',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwind-scrollbar-hide"),
+    require('@tailwindcss/forms'), 
+],
 }
