@@ -2,7 +2,7 @@ import { Link } from "react-scroll"
 
 export default function HeaderText() {
     return(
-        <div className="ml-24 mt-4 h-screen w-screen">
+        <div className="ml-24 mt-4 h-screen w-screen no-scrollbar">
             <div className="flex justify-center space-x-24">
                 <Link className="transition hover:text-NourishBlue cursor-pointer" to="/">
                     About Us
