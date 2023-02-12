@@ -18,7 +18,7 @@ import EggsAndBacon from "../images/EggsAndBacon.png"
 export default function IntroBG() {
     return (
         <div className="overflow-x-hidden no-scrollbar">
-            <div className="absolute -right-32 -top-8 z-10">
+            <div className="absolute -right-[123px] -top-8 z-10">
                 <CalgaryTower />
             </div>
             <div className="absolute top-0 -right-2">
