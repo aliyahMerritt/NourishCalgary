@@ -51,5 +51,5 @@ const mapStyles = {
 };
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyCAp6PY3rnEuEf9zCgQY1L6GBSZlu2RDLA'
+    apiKey: ''
 })(NourishMap);
