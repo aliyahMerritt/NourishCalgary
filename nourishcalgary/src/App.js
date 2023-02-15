@@ -3,13 +3,17 @@ import HomePage from "./pages/HomePage";
 import React from "react";
 import AboutPage from "./components/AboutPage";
 import "./App.css";
+import Map from "./components/MapStyling";
+import NourishMap from "./components/NourishMap";
 
 export default function App() {
     return (
-        <div className="overflow-hidden scroll">
+        <div className="overflow-hidden">
             <HomePage />
             {/* <NavBar /> */}
             <AboutPage />
+            <Map />
+            <NourishMap />
         </div>
     );
 }
