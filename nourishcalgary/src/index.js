@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
@@ -32,7 +35,7 @@ const scrollbarHide = plugin(function ({ addUtilities }) {
         display: 'none'
       }
     },
-    
+
     '.scrollbar-default': {
       /* IE and Edge */
       '-ms-overflow-style': 'auto',

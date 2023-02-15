@@ -27,7 +27,7 @@ export default function AboutPage() {
                 <img src={Pantry} alt="Pantry Placeholder" />
                 <p className="absolute text-white text-3xl mt-10 text-center">
                     Nourish Calgary is an app inspired by the graduating class of 2023 at Bowness High school and their Community Pantry legacy project. In the front of Bowness High School is a community pantry - designed and built by graduating 2023 students to combat food insecurity in their community.
-                    With this app, Calgarians can view and be taken to community pantry’s and free food, including food bank locations, etc. to help people stay full no matter their circumstances.
+                    With this app, Calgarians can view and be taken to community pantry’s and free food, including food bank locations, etc. to help people stay nourished no matter their circumstances.
                 </p>
             </div>
             <div className="absolute right-[1010px] top-[1780px] animate-bounce2">
