@@ -8,7 +8,7 @@ import Burrito from "../images/Burrito.png"
 export default function AboutPage() {
     return (
         <div>
-            <div className="absolute text-NourishBlue top-[1150px] text-7xl z-10 font-bold left-28">
+            <div className="absolute text-NourishBlue top-[1150px] text-7xl z-10 font-bold left-28" id="AboutUs">
                 About Us
             </div>
             <div className="absolute text-NourishBlue top-[1270px] text-3xl left-28 text-wrap w-72">
