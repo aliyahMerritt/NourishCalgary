@@ -16,8 +16,8 @@ export default function HowCanIHelp() {
     };
 
     return (
-        <div className="top-[3200px] absolute w-[4000px] h-[3000px] absolute bg-gradient-to-b from-NourishBlue to-NourishBG z-10">
-            <div className="top-[3000px] absolute w-screen h-[3000px] bg-NourishBG">
+        <div className="top-[3200px] absolute w-[4000px] h-[1000px] absolute bg-gradient-to-b from-NourishBlue to-NourishBG z-10">
+            <div className="top-[1000px] absolute w-screen h-[1100px] bg-NourishBG">
                 <div className="ml-24 mt-4 h-screen w-screen">
                     <Link to="Introduction" className="absolute -top-[470px] left-12 cursor-pointer" onClick={handleClick} spy={true} smooth={true}>
                         <img src={NCLogo} alt="Nourish Calgary Logo" height={400} width={180} />
