@@ -5,6 +5,7 @@ import AboutPage from "./components/AboutPage";
 import "./App.css";
 import Map from "./components/MapStyling";
 import NourishMap from "./components/NourishMap";
+import HowCanIHelp from "./components/HowCanIHelp";
 
 export default function App() {
     return (
@@ -13,6 +14,7 @@ export default function App() {
             <AboutPage />
             <Map />
             <NourishMap />
+            <HowCanIHelp />
         </div>
     );
 }
