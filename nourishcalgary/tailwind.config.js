@@ -15,6 +15,7 @@ module.exports = {
         NourishBlue: '#15b7b9',
         NourishBG: '#f5f5f5',
         DarkNourishBlue: '#108A8B',
+        FooterColour: '#7A8B8C'
       },
       backgroundColor: {
         NourishBG: '#f5f5f5',

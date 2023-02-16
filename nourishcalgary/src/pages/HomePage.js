@@ -1,4 +1,3 @@
-import { Link } from "react-scroll"
 import HeaderText from "../components/HeaderText"
 import IntroBG from "../components/IntroBG"
 
