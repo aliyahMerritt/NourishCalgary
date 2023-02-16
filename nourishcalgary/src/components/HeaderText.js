@@ -13,7 +13,7 @@ export default function HeaderText() {
     };
 
     return (
-        <div className="ml-24 mt-4 h-screen w-screen no-scrollbar">
+        <div className="ml-24 mt-4 h-screen w-screen">
             <div className="flex justify-center space-x-24">
                 <Link to="AboutUs" onClick={handleClick} spy={true} smooth={true} className="transition hover:text-NourishBlue cursor-pointer">
                     About Us
@@ -23,7 +23,7 @@ export default function HeaderText() {
                     View Map
                     <hr className="h-0.5 w-[70px] my-0 bg-NourishBlue border-0"></hr>
                 </Link>
-                <Link  onClick={handleClick} spy={true} smooth={true} className="hover:text-NourishBlue cursor-pointer">
+                <Link  to="HowCanIHelp" offset={-20} onClick={handleClick} spy={true} smooth={true} className="hover:text-NourishBlue cursor-pointer">
                     How Can I Help?
                     <hr className="h-0.5 w-30 my-0 bg-NourishBlue border-0"></hr>
                 </Link>
