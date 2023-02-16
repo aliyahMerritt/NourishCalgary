@@ -50,6 +50,8 @@ const mapStyles = {
     height: '95%',
 };
 
+const API_KEY = process.env.REACT_APP_API_KEY
+
 export default GoogleApiWrapper({
     apiKey: ''
 })(NourishMap);

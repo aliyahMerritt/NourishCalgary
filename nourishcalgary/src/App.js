@@ -10,7 +10,6 @@ export default function App() {
     return (
         <div className="overflow-hidden">
             <HomePage />
-            {/* <NavBar /> */}
             <AboutPage />
             <Map />
             <NourishMap />
