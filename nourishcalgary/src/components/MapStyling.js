@@ -29,7 +29,7 @@ export default function Map() {
             <div className="-top-[100px] absolute w-screen h-[2000px] absolute bg-NourishBlue -z-10">
 
             </div>
-            <div className="bg-NourishBG w-[1100px] h-16 left-0 absolute top-0 z-50">
+            <div className="bg-NourishBG w-[1100px] h-16 left-0 absolute top-0 z-20">
                 <Link to="Introduction" onClick={handleClick} spy={true} smooth={true} className="cursor-pointer">
                     <img src={NCLogo} alt="Nourish Calgary Logo" height={400} width={180}></img>
                 </Link>

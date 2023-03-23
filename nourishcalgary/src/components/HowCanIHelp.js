@@ -16,10 +16,10 @@ export default function HowCanIHelp() {
     };
 
     return (
-        <div className="top-[3200px] absolute w-[4000px] h-[1000px] absolute bg-gradient-to-b from-NourishBlue to-NourishBG z-10">
-            <div className="top-[1000px] absolute w-screen h-[1100px] bg-NourishBG">
+        <div className="top-[3070px] absolute w-[4000px] h-[1600px] absolute bg-gradient-to-b from-NourishBlue via-NourishBG to-NourishBG">
+            <div className="top-[1150px] absolute w-screen h-[800px] bg-NourishBG" id="HowCanIHelp">
                 <div className="ml-24 mt-4 h-screen w-screen">
-                    <Link to="Introduction" className="absolute -top-[470px] left-12 cursor-pointer" onClick={handleClick} spy={true} smooth={true}>
+                    {/* <Link to="Introduction" className="absolute -top-[470px] left-12 cursor-pointer" onClick={handleClick} spy={true} smooth={true}>
                         <img src={NCLogo} alt="Nourish Calgary Logo" height={400} width={180} />
                     </Link>
                     <Link to="Introduction" className="absolute -top-[470px] right-12 cursor-pointer" onClick={handleClick} spy={true} smooth={true}>
@@ -42,7 +42,7 @@ export default function HowCanIHelp() {
                             Sign Out
                             <hr className="h-0.5 w-30 my-0 bg-NourishBlue border-0"></hr>
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="absolute text-NourishBlue text-6xl left-[480px] font-bold -top-[400px]">
                         How can You Help?
                     </div>
