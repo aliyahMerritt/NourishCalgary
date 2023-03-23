@@ -33,7 +33,7 @@ export class NourishMap extends Component {
     render() {
         return (
             <Map
-                className="top-[2460px]"
+                className="top-[2460px] z-10"
                 google={this.props.google}
                 zoom={15}
                 style={mapStyles}
