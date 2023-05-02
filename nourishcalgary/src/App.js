@@ -8,6 +8,7 @@ import HowCanIHelp from "./components/HowCanIHelp";
 import Footer from "./components/Footer";
 
 export default function App() {
+
     return (
         <div className="overflow-hidden">
             <HomePage />

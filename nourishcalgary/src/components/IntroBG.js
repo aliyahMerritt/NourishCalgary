@@ -21,7 +21,7 @@ export default function IntroBG() {
             <div className="absolute -right-[123px] -top-8 z-10">
                 <CalgaryTower />
             </div>
-            <div className="absolute top-0 -right-2">
+            <div className="absolute top-0 -right-4">
                 <BGRectangle />
             </div>
             <div className="absolute top-0 left-0">
