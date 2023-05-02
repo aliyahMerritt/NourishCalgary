@@ -17,7 +17,7 @@ const handleClick = (content) => {
 const HeaderText = () => {
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 400) {
             setColorchange(true);
         }
         else {
@@ -38,7 +38,7 @@ const HeaderText = () => {
                         <UserIcon />
                     </Link>
                 </NavProfile>
-                <Nav className={colorChange ? 'navbar colorChange shadow-md ease-in-out duration-300' : 'navbar'}>
+                <Nav className={colorChange ? 'navbar colorChange shadow-md ease-out duration-300' : 'navbar'}>
                     <Link to="AboutUs" onClick={handleClick} spy={true} smooth={true} className="transition hover:text-NourishBlue cursor-pointer">
                         About Us
                         <hr className="h-0.5 w-[65px] my-0 bg-NourishBlue border-0"></hr>
