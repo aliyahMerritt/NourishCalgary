@@ -38,10 +38,10 @@ export default function IntroBG() {
                         <img src={Cookies} alt="Cookies" />
                     </div>
                 </div>
-                <div className="absolute -bottom-[92px] -rotate-[58deg] right-[560px]">
+                <div className="absolute -bottom-[94px] -rotate-[58deg] right-[549px]">
                     <img src={Subtract1} alt="Subtract1" />
                 </div>
-                <div className="absolute -bottom-40 top-[515px] rotate-35 right-[502px]">
+                <div className="absolute -bottom-40 top-[515px] rotate-[-0.5deg] right-[492.7px]">
                     <img src={Subtract2} alt="Subtract2" />
                 </div>
                 <div className="absolute top-16 right-1/4">
@@ -65,7 +65,7 @@ export default function IntroBG() {
                 <p className="absolute text-white right-[365px] -bottom-[230px] text-xl font-bold">
                     Scroll to read about us
                 </p>
-                <div className="absolute top-[775px] right-80">
+                <div className="absolute top-[775px] right-[311px]">
                     <Arrow />
                 </div>
                 <div className="absolute left-40 top-[700px]">
